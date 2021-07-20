@@ -1,6 +1,7 @@
 package com.spring.register.registration;
 
 import com.spring.register.appuser.AppUser;
+import com.spring.register.appuser.AppUserRole;
 import com.spring.register.appuser.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -19,10 +20,6 @@ public class RegistrationService {
             throw new IllegalStateException("email not valid");
         }
 
-        return appUserService.signUpUser(
-                new AppUser(
-                        request.getFirstName();
-                );
-        );
+        return appUserService.signUpUser(new AppUser(request.getFirstName(), request.getLastName(), request.getEmail(), request.getPassword(), AppUserRole.USER));
     }
 }
