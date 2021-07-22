@@ -1,2 +1,7 @@
-package com.spring.register.registration.token;public class ConfirmationTokenService {
+package com.spring.register.registration.token;
+
+public class ConfirmationTokenService {
+
+
+
 }
