@@ -57,7 +57,7 @@ public class RegistrationService {
 
         emailSender.send(request.getEmail(), buildEmail(request.getFirstName(), link));
 
-        return token;
+        return "check your email";
 
     }
 
