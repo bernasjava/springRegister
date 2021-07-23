@@ -41,6 +41,8 @@
   </ol>
 </details>
 
+## About The Project
+
 ### Built With
 
 * [Spring Boot](https://spring.io/projects/spring-boot)
@@ -76,7 +78,7 @@ $ maildev
 
 
 <!-- USAGE EXAMPLES -->
-## Endpoints
+## Endpoints and sample requests
 
 Sign in
 ```sh
