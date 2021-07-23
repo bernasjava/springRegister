@@ -80,21 +80,13 @@ $ maildev
 <!-- USAGE EXAMPLES -->
 ## Endpoints and sample requests
 
-Sign in
+### Sign in
 ```sh
 /login
 ```
-```sh
-POST http://localhost:8080/login
-Content-Type: application/json
+User can sign in using default form based authentication provided by spring security.
 
-{
-  "username": "jsmith@mail.com",
-  "password": "password123"
-}
-```
-
-Register
+### Register
 ```sh
 /api/v1/registration
 ```
@@ -110,7 +102,7 @@ Content-Type: application/json
 }
 ```
 
-Confirm account
+### Confirm account
 ```sh
 /api/v1/registration/confirm?token=yourtoken
 ```
